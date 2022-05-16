@@ -17,3 +17,11 @@ In simple terms, GANs are used to train a DL model to capture training data dist
 2. Paste the downloaded data into the “dataset” folder
 3. Create an empty directory named “generated_images” which will contain the output of our DCGAN
 4. Run the notebook (CatGAN.ipynb)
+
+The images generated after 50 iterations are shown below:
+
+![Generated images](/generated_images/output-0050.png)
+
+Following is the graph of the generator and the discriminator loss during training
+
+![Generator and Discriminator loss](graph.png)
